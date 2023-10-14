@@ -38,7 +38,6 @@ NTPClient timeClient(ntpUDP, "pool.ntp.org");
 #define USER_PASSWORD "" // Firebase User Password
 #define DATABASE_URL "" // Firebase Realtime Database URL
 #define FIREBASE_MESSAGE_KEY "" // Firebase Cloud Messaging Key
-
 #define FIREBASE_CLIENT_EMAIL "" // Firebase Service Account Email ( xxx@appspot.gserviceaccount.com )
 
 const char *host = "fcm.googleapis.com";
